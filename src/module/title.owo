@@ -1,0 +1,29 @@
+<template>
+  <div class="title">
+    {{prop.title}}
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.title {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('@|title-bg.png|');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+</style>

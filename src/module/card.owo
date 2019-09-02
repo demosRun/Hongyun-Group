@@ -1,0 +1,47 @@
+<template>
+  <div class="card">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多>></a>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.card {
+  width: 366px;
+  margin: 15px 0;
+}
+.title {
+  height: 40px;
+  line-height: 36px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('@|more-card-title.png|');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin-bottom: 20px;
+}
+li {
+  font-size: 16px;
+  line-height: 32px;
+}
+</style>

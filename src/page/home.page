@@ -1,0 +1,329 @@
+<template>
+  <div class="home">
+    <!-- 主图 -->
+    <img class="main" src="@|main.jpg|" width="1920" height="500">
+    <!-- 导航栏 -->
+    <temple name="nav" src="https://owo.ink/public/7a47ef367169c9579b2d164e4dc953e8.page"></temple>
+    <!-- 公司信息 -->
+    <temple name="info" src="./src/module/info.owo"></temple>
+    <!-- 标题信息 -->
+    <temple name="title" title="新闻资讯" src="./src/module/title.owo"></temple>
+    <div class="news-box clear">
+      <temple name="swiperBox"  src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page"></temple>
+      <div class="right">
+        <ul>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运鸿调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li>李玉保：高精效工作——就要“176”</li>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运导团调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        </ul>
+        <a href="#" class="more">更多>></a>
+      </div>
+    </div>
+    <!-- 集团领导致辞 -->
+    <temple name="title" title="集团领导致辞" src="./src/module/title.owo"></temple>
+    <div class="people-box">
+      <!-- 人的头像 -->
+      <img src="@|people.png|" width="278" height="315">
+      <!-- 人说的话 -->
+      <p>自2013年成立以来，运鸿控股有限公司（以下简称运鸿控股）已在全国各省市设立了十多家分支机构，并于2017年5月正式启动了 IPO转板流程，在实现IPO上市的道路上迈出了关键性的一步。与此同时，运鸿控股各方面发展也日趋成熟，企业不断做大，业绩不断做 优，管理不断升级，项目结构和投资规模，不断朝着地域国际化、规模集团化、管理现代化、资本股份化方向阔步迈进，进入健康可持 续发展轨道.</p>
+    </div>
+    <!-- 集团大事件 -->
+    <temple name="title" title="集团大事记" src="./src/module/title.owo"></temple>
+    <div class="roll-box">
+      <div class="left line"></div>
+      <ul class="right">
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 健康肽 肽健康 -->
+    <temple name="title" title="健康肽 肽健康" src="./src/module/title.owo"></temple>
+    <div class="three-card-box clear">
+      <div class="mini-card">
+        <img src="@|1.jpg|"/>
+      </div>
+      <ul class="mini-card">
+        <li>运鸿集团为中国助残事业再立新功</li>
+        <li>省委统战部领导团莅临运鸿调研</li>
+        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        <li>李玉保：高精效工作——就要“176”</li>
+        <li>运鸿集团为中国助残事业再立新功</li>
+        <li>省委统战部领导团莅临运导团调研</li>
+        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      </ul>
+      <div class="mini-card">
+        <ul>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运鸿调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li>李玉保：高精效工作——就要“176”</li>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运导团调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        </ul>
+        <a href="#" class="more">更多>></a>
+      </div>
+    </div>
+    <!-- 运鸿肽家园 -->
+    <temple name="title" title="运鸿肽家园" src="./src/module/title.owo"></temple>
+    <div class="show-card-box clear">
+      <div class="show-card-1 clear">
+        <div class="show-card-item long">
+          <h1>走近“运鸿肽家园”</h1>
+          <p>2017年11月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授（原北京协和医院资深专家），率领运鸿集团高管团队一行，专程赴湖南长沙拜会了前来我国参加“ 1月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授.</p>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <h3>牙膏+漱口水</h3>
+          <img src="@|2.jpg|"/>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <img src="@|2.jpg|"/>
+        </div>
+      </div>
+      <div class="show-card-1 clear">
+        <div class="show-card-item long">
+          <h1>走近“运鸿肽家园”</h1>
+          <p>2017年11月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授（原北京协和医院资深专家），率领运鸿集团高管团队一行，专程赴湖南长沙拜会了前来我国参加“ 1月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授.</p>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <h3>牙膏+漱口水</h3>
+          <img src="@|2.jpg|"/>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <img src="@|2.jpg|"/>
+        </div>
+      </div>
+      <!-- 很多卡片的列表 -->
+      <div class="more-card-box clear">
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+        <temple name="morecard" src="./src/module/card.owo"></temple>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      this.query('.roll-box .left')[0].style.height = this.query('.roll-box li').length * 176 + 'px'
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main {
+  margin: 0;
+  display: block;
+}
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+.news-box {
+  width: 1000px;
+  margin: auto;
+  .swiper-box {
+    float: left;
+  }
+  .right {
+    float: right;
+    ul {
+      width: 480px;
+      height: 287px;
+      li {
+        color: #333333;
+        font-size: 20px;
+        line-height: 41px;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        padding-left: 20px;
+        background-image: url('@|doit.png|');
+      }
+    }
+  }
+}
+.more {
+  color: #70c1e2;
+  font-size: 18px;
+  text-align: right;
+  line-height: 23px;
+  display: block;
+}
+.people-box {
+  width: 1114px;
+  height: 308px;
+  margin: 0 auto;
+  background-image: url('@|people-box.png|');
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 20px;
+  img {
+    position: absolute;
+    left: 50px;
+    bottom: -1px;
+  }
+  p {
+    color: #fffefe;
+    font-size: 17px;
+    position: absolute;
+    width: 486px;
+    left: 43%;
+    top: 30%;
+    line-height: 28px;
+  }
+}
+.news-box {
+  margin-bottom: 50px;
+}
+.roll-box {
+  width: 1114px;
+  height: 330px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  .left {
+    width: 30px;
+    height: 100%;
+    float: left;
+    background-repeat-x: no-repeat;
+    background-image: url('@|line.png|');
+  }
+  li:after {
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+  }
+  li {
+    height: 185px;
+    .text {
+      float: left;
+      width: 84px;
+      font-size: 24px;
+      line-height: 30px;
+      color: #96b9ed;
+    }
+    .card-box {
+      float: left;
+      width: 983px;
+    }
+  }
+  .card {
+    width: 431px;
+    height: 60px;
+    float: left;
+    margin-bottom: 20px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 40px;
+    padding-right: 20px;
+    overflow: hidden;
+    line-height: 30px;
+    font-size: 16px;
+    color: #333333;
+    background-image: url("@|card.png|")
+  }
+}
+
+.three-card-box {
+  width: 1100px;
+  margin: 30px auto;
+  .mini-card {
+    float: left;
+    width: 33.33%;
+    height: 245px;
+  }
+  li {
+    line-height: 32px;
+    font-size: 16px;
+  }
+}
+.show-card-box {
+  width: 1100px;
+  margin: 0 auto;
+}
+.show-card-1 {
+  height: 315px;
+  background-color: #c7e9f5;
+  .show-card-item {
+    float: left;
+    height: 100%;
+    width: 30%;
+    position: relative;
+    border: 1px solid white;
+    box-sizing: border-box;
+    padding: 15px;
+    h1 {
+      font-size: 24px;
+      color: #206a7b;
+      line-height: 30px;
+    }
+    p {
+      font-size: 18px;
+      color: #333333;
+      line-height: 34px;
+      margin-top: 30px;
+    }
+    img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 45px;
+      bottom: 0;
+      margin: auto;
+    }
+  }
+  .long {
+    width: 40%;
+  }
+}
+</style>

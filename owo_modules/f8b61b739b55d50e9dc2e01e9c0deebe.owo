@@ -1,0 +1,60 @@
+<template>
+  <nav>
+    <div class="content-box">
+      <a target="_blank" :for="item in data.itemLiat" href="{{item.url}}">{{item.name}}</a>
+    </div>
+  </nav>
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      itemLiat: [
+        {"url":"http://www.people.com.cn/","name":"集团介绍"},
+        {"url":"http://www.people.com.cn/","name":"大事记"},
+        {"url":"http://www.people.com.cn/","name":"焦点图新闻"},
+        {"url":"http://www.people.com.cn/","name":"新闻资讯"},
+        {"url":"http://www.people.com.cn/","name":"媒体报道"},
+        {"url":"http://www.people.com.cn/","name":"科普知识"},
+        {"url":"http://www.people.com.cn/","name":"产品服务"},
+        {"url":"http://www.people.com.cn/","name":"社会责任"}
+      ]
+    }
+  }
+</script>
+
+<style lang="less">
+.content-box {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  font-size: 24px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #00a1d5;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: #ffffff;
+  }
+
+}
+a {
+  color: white;
+  display: inline;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+</style>

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="filetype" content="1"/>
+    <meta name="publishedtype" content="1"/>
+    <meta name="pagetype" content="2"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-orientation" content="landscape"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="browsermode" content="application"/>
+    <meta name="x5-page-mode" content="app"/>
+    <!-- 页面主样式文件 -->
+<style>
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+[template="nav"] .content-box {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+nav[template="nav"] {
+  width: 100%;
+  font-size: 24px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #00a1d5;
+}
+
+nav[template="nav"] a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav[template="nav"] a:hover {
+  color: white;
+  -webkit-text-decoration: #ffffff;
+          text-decoration: #ffffff;
+}
+
+[template="nav"] a {
+  color: white;
+  display: inline;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+.info[template="info"] {
+  margin: 0;
+  display: block;
+  height: 230px;
+  background-color: #ecf1f7;
+}
+
+[template="info"] .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+[template="info"] h1 {
+  font-size: 31px;
+  color: #4aa0d0;
+  line-height: 31px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+[template="info"] h3 {
+  font-size: 13px;
+  color: #4aa0d0;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+[template="info"] p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+}
+.title[template="title"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.swiper-box[template="swiperBox"] {
+  height: 310px;
+  overflow: hidden;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.swiper-box[template="swiperBox"] img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-box[template="swiperBox"] .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.swiper-box[template="swiperBox"] .right {
+  width: 100%;
+  height: 310px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-box[template="swiperBox"] .o-home .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.swiper-box[template="swiperBox"] .pagination {
+  position: absolute;
+  bottom: 5px;
+  height: 20px;
+  right: 5px;
+}
+
+[template="swiperBox"] .swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #555 inset;
+}
+
+[template="swiperBox"] .swiper-active-switch {
+  background-color: blue;
+}
+
+[template="swiperBox"] a {
+  text-decoration: none;
+}
+
+[template="swiperBox"] .swiper-slide {
+  position: relative;
+}
+
+[template="swiperBox"] .pagination-pPX8XxuUyIehAAEu {
+  position: absolute;
+  bottom: 35px;
+  right: 10px;
+}
+.title[template="title1"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title2"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title3"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title4"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.card[template="morecard"] {
+  width: 366px;
+  margin: 15px 0;
+}
+
+[template="morecard"] .title {
+  height: 40px;
+  line-height: 36px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('./static/resource/more-card-title.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin-bottom: 20px;
+}
+
+[template="morecard"] li {
+  font-size: 16px;
+  line-height: 32px;
+}
+[template="home"] .main {
+  margin: 0;
+  display: block;
+}
+
+[template="home"] .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+[template="home"] .news-box {
+  width: 1000px;
+  margin: auto;
+}
+
+[template="home"] .news-box .swiper-box {
+  float: left;
+}
+
+[template="home"] .news-box .right {
+  float: right;
+}
+
+[template="home"] .news-box .right ul {
+  width: 480px;
+  height: 287px;
+}
+
+[template="home"] .news-box .right ul li {
+  color: #333333;
+  font-size: 20px;
+  line-height: 41px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 20px;
+  background-image: url('./static/resource/doit.png');
+}
+
+[template="home"] .more {
+  color: #70c1e2;
+  font-size: 18px;
+  text-align: right;
+  line-height: 23px;
+  display: block;
+}
+
+[template="home"] .people-box {
+  width: 1114px;
+  height: 308px;
+  margin: 0 auto;
+  background-image: url('./static/resource/people-box.png');
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+[template="home"] .people-box img {
+  position: absolute;
+  left: 50px;
+  bottom: -1px;
+}
+
+[template="home"] .people-box p {
+  color: #fffefe;
+  font-size: 17px;
+  position: absolute;
+  width: 486px;
+  left: 43%;
+  top: 30%;
+  line-height: 28px;
+}
+
+[template="home"] .news-box {
+  margin-bottom: 50px;
+}
+
+[template="home"] .roll-box {
+  width: 1114px;
+  height: 330px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+[template="home"] .roll-box .left {
+  width: 30px;
+  height: 100%;
+  float: left;
+  background-repeat-x: no-repeat;
+  background-image: url('./static/resource/line.png');
+}
+
+[template="home"] .roll-box li:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+[template="home"] .roll-box li {
+  height: 185px;
+}
+
+[template="home"] .roll-box li .text {
+  float: left;
+  width: 84px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #96b9ed;
+}
+
+[template="home"] .roll-box li .card-box {
+  float: left;
+  width: 983px;
+}
+
+[template="home"] .roll-box .card {
+  width: 431px;
+  height: 60px;
+  float: left;
+  margin-bottom: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 40px;
+  padding-right: 20px;
+  overflow: hidden;
+  line-height: 30px;
+  font-size: 16px;
+  color: #333333;
+  background-image: url("./static/resource/card.png");
+}
+
+[template="home"] .three-card-box {
+  width: 1100px;
+  margin: 30px auto;
+}
+
+[template="home"] .three-card-box .mini-card {
+  float: left;
+  width: 33.33%;
+  height: 245px;
+}
+
+[template="home"] .three-card-box li {
+  line-height: 32px;
+  font-size: 16px;
+}
+
+[template="home"] .show-card-box {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+[template="home"] .show-card-1 {
+  height: 315px;
+  background-color: #c7e9f5;
+}
+
+[template="home"] .show-card-1 .show-card-item {
+  float: left;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+[template="home"] .show-card-1 .show-card-item h1 {
+  font-size: 24px;
+  color: #206a7b;
+  line-height: 30px;
+}
+
+[template="home"] .show-card-1 .show-card-item p {
+  font-size: 18px;
+  color: #333333;
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+[template="home"] .show-card-1 .show-card-item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  margin: auto;
+}
+
+[template="home"] .show-card-1 .long {
+  width: 40%;
+}
+</style>
+    <!-- 附属css文件 -->
+    <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
+    <link rel="stylesheet" href="./static/css/idangerous.swiper2.7.0.css" charset="utf-8">
+    
+    
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="home ox" template="home">
+    <!-- 主图 -->
+    <img class="main" src="./static/resource/main.jpg" width="1920" height="500">
+    <!-- 导航栏 -->
+    <nav template="nav">
+    <div class="content-box">
+      
+<a target="_blank" href="http://www.people.com.cn/">集团介绍</a>
+<a target="_blank" href="http://www.people.com.cn/">大事记</a>
+<a target="_blank" href="http://www.people.com.cn/">焦点图新闻</a>
+<a target="_blank" href="http://www.people.com.cn/">新闻资讯</a>
+<a target="_blank" href="http://www.people.com.cn/">媒体报道</a>
+<a target="_blank" href="http://www.people.com.cn/">科普知识</a>
+<a target="_blank" href="http://www.people.com.cn/">产品服务</a>
+<a target="_blank" href="http://www.people.com.cn/">社会责任</a>
+    </div>
+  </nav>
+    <!-- 公司信息 -->
+    <div class="info" template="info">
+    <div class="w1000">
+      <h1>运鸿控股有限公司</h1>
+      <h3>China YunHong Holdings CO., LTD.</h3>
+      <p>自2013年成立以来，运鸿控股有限公司（以下简称运鸿控股）已在全国各省市设立了十多家分支机构，并于2017年5月正式启动了 IPO转板流程，在实现IPO上市的道路上迈出了关键性的一步。与此同时，运鸿控股各方面发展也日趋成熟，企业不断做大，业绩不断做 优，管理不断升级，项目结构和投资规模，不断朝着地域国际化、规模集团化、管理现代化、资本股份化方向阔步迈进，进入健康可持 续发展轨道，具备了IPO上市的条件。在内部结构上，运鸿控股已完成股份制改造，完善了“三会一层”管理体系。<a href="#" target="_blank">【详细】</a></p>
+    </div>
+  </div>
+    <!-- 标题信息 -->
+    <div class="title" template="title">
+    新闻资讯
+  </div>
+    <div class="news-box clear">
+      <div class="swiper-box" template="swiperBox"><div class="right float-left swiper-container-pPX8XxuUyIehAAEu"><div class="swiper-wrapper">
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="470" height="310"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg" width="470" height="310"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg" width="470" height="310"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div></div><div class="pagination-pPX8XxuUyIehAAEu"></div></div><div class="clear"></div></div>
+      <div class="right">
+        <ul>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运鸿调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li>李玉保：高精效工作——就要“176”</li>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运导团调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        </ul>
+        <a href="#" class="more">更多&gt;&gt;</a>
+      </div>
+    </div>
+    <!-- 集团领导致辞 -->
+    <div class="title" template="title1">
+    集团领导致辞
+  </div>
+    <div class="people-box">
+      <!-- 人的头像 -->
+      <img src="./static/resource/people.png" width="278" height="315">
+      <!-- 人说的话 -->
+      <p>自2013年成立以来，运鸿控股有限公司（以下简称运鸿控股）已在全国各省市设立了十多家分支机构，并于2017年5月正式启动了 IPO转板流程，在实现IPO上市的道路上迈出了关键性的一步。与此同时，运鸿控股各方面发展也日趋成熟，企业不断做大，业绩不断做 优，管理不断升级，项目结构和投资规模，不断朝着地域国际化、规模集团化、管理现代化、资本股份化方向阔步迈进，进入健康可持 续发展轨道.</p>
+    </div>
+    <!-- 集团大事件 -->
+    <div class="title" template="title2">
+    集团大事记
+  </div>
+    <div class="roll-box">
+      <div class="left line"></div>
+      <ul class="right">
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+        <li>
+          <div class="text">2017</div>
+          <div class="card-box">
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- 健康肽 肽健康 -->
+    <div class="title" template="title3">
+    健康肽 肽健康
+  </div>
+    <div class="three-card-box clear">
+      <div class="mini-card">
+        <img src="./static/resource/1.jpg">
+      </div>
+      <ul class="mini-card">
+        <li>运鸿集团为中国助残事业再立新功</li>
+        <li>省委统战部领导团莅临运鸿调研</li>
+        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        <li>李玉保：高精效工作——就要“176”</li>
+        <li>运鸿集团为中国助残事业再立新功</li>
+        <li>省委统战部领导团莅临运导团调研</li>
+        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      </ul>
+      <div class="mini-card">
+        <ul>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运鸿调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li>李玉保：高精效工作——就要“176”</li>
+          <li>运鸿集团为中国助残事业再立新功</li>
+          <li>省委统战部领导团莅临运导团调研</li>
+          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        </ul>
+        <a href="#" class="more">更多&gt;&gt;</a>
+      </div>
+    </div>
+    <!-- 运鸿肽家园 -->
+    <div class="title" template="title4">
+    运鸿肽家园
+  </div>
+    <div class="show-card-box clear">
+      <div class="show-card-1 clear">
+        <div class="show-card-item long">
+          <h1>走近“运鸿肽家园”</h1>
+          <p>2017年11月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授（原北京协和医院资深专家），率领运鸿集团高管团队一行，专程赴湖南长沙拜会了前来我国参加“ 1月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授.</p>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <h3>牙膏+漱口水</h3>
+          <img src="./static/resource/2.jpg">
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <img src="./static/resource/2.jpg">
+        </div>
+      </div>
+      <div class="show-card-1 clear">
+        <div class="show-card-item long">
+          <h1>走近“运鸿肽家园”</h1>
+          <p>2017年11月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授（原北京协和医院资深专家），率领运鸿集团高管团队一行，专程赴湖南长沙拜会了前来我国参加“ 1月24日中国运鸿控股集团副总经理兼首席医学科学家、大健康产业负责人白丽教授.</p>
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <h3>牙膏+漱口水</h3>
+          <img src="./static/resource/2.jpg">
+        </div>
+        <div class="show-card-item">
+          <h1>个人洗护</h1>
+          <img src="./static/resource/2.jpg">
+        </div>
+      </div>
+      <!-- 很多卡片的列表 -->
+      <div class="more-card-box clear">
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+        <div class="card" template="morecard">
+    <div class="title">媒体报道（权威媒体报道）</div>
+    <ul>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运鸿调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+      <li>李玉保：高精效工作——就要“176”</li>
+      <li>运鸿集团为中国助残事业再立新功</li>
+      <li>省委统战部领导团莅临运导团调研</li>
+      <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+    </ul>
+    <a href="#" class="more">更多&gt;&gt;</a>
+  </div>
+      </div>
+    </div>
+  </div>
+    <!-- 框架script代码 --><script>"use strict";
+
+// 存储页面基本信息
+var owo = {
+  // 页面默认入口 如果没有设置 则取第一个页面为默认页面
+  entry: "home",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "created": function created() {
+      this.query('.roll-box .left')[0].style.height = this.query('.roll-box li').length * 176 + 'px';
+    },
+    "template": {
+      "nav": {
+        "data": {
+          "itemLiat": [{
+            "url": "http://www.people.com.cn/",
+            "name": "集团介绍"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "大事记"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "焦点图新闻"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "新闻资讯"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "媒体报道"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "科普知识"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "产品服务"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "社会责任"
+          }]
+        },
+        "prop": {}
+      },
+      "info": {
+        "created": function created() {},
+        "prop": {}
+      },
+      "title": {
+        "created": function created() {},
+        "prop": {
+          "title": "新闻资讯"
+        }
+      },
+      "swiperBox": {
+        "data": {
+          "swiperBoxList": [{
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }]
+        },
+        "created": function created() {
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+              pagination: '.pagination-pPX8XxuUyIehAAEu',
+              paginationClickable: true
+            });
+          }, 0);
+        },
+        "prop": {}
+      },
+      "title1": {
+        "created": function created() {},
+        "prop": {
+          "title": "集团领导致辞"
+        }
+      },
+      "title2": {
+        "created": function created() {},
+        "prop": {
+          "title": "集团大事记"
+        }
+      },
+      "title3": {
+        "created": function created() {},
+        "prop": {
+          "title": "健康肽 肽健康"
+        }
+      },
+      "title4": {
+        "created": function created() {},
+        "prop": {
+          "title": "运鸿肽家园"
+        }
+      },
+      "morecard": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard1": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard2": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard3": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard4": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard5": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      }
+    }
+  }
+};</script>
+<!-- 框架script文件 -->
+<script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
+<!-- 调试-热刷新代码 -->
+<script src="./static/js/autoReload.js" type="text/javascript" charset="UTF-8"></script>
+
+    <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="./static/js/idangerous.swiper2.7.0.min.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="./static/js/main.js" type="text/javascript"  charset="UTF-8"></script>
+  </body>
+</html>

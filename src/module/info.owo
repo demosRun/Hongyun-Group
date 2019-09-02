@@ -1,0 +1,49 @@
+<template>
+  <div class="info">
+    <div class="w1000">
+      <h1>运鸿控股有限公司</h1>
+      <h3>China YunHong Holdings CO., LTD.</h3>
+      <p>自2013年成立以来，运鸿控股有限公司（以下简称运鸿控股）已在全国各省市设立了十多家分支机构，并于2017年5月正式启动了 IPO转板流程，在实现IPO上市的道路上迈出了关键性的一步。与此同时，运鸿控股各方面发展也日趋成熟，企业不断做大，业绩不断做 优，管理不断升级，项目结构和投资规模，不断朝着地域国际化、规模集团化、管理现代化、资本股份化方向阔步迈进，进入健康可持 续发展轨道，具备了IPO上市的条件。在内部结构上，运鸿控股已完成股份制改造，完善了“三会一层”管理体系。<a href="#" target="_blank">【详细】</a></p>
+    </div>
+  </div>
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+
+    }
+  }
+</script>
+
+
+<style lang="less">
+.info {
+  margin: 0;
+  display: block;
+  height: 230px;
+  background-color: #ecf1f7;
+}
+.w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 31px;
+  color: #4aa0d0;
+  line-height: 31px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-size: 13px;
+  color: #4aa0d0;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+}
+</style>
