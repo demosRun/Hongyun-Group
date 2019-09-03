@@ -1,0 +1,20 @@
+<template>
+  <p class="mt30">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</p>
+</template>
+
+<style original>
+  .mt30 {
+    font-size: 14px;
+    line-height: 31px;
+    height: 70px;
+    color: white;
+    bottom: 0;
+    z-index: 999;
+    text-align: center;
+    width: 100%;
+    padding: 40px 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00a1d5;
+  }
+</style>

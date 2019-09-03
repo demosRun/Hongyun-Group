@@ -1,0 +1,604 @@
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+[template="nav"] .content-box {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+[template="nav"] .content-box a {
+  display: inline;
+}
+
+nav[template="nav"] {
+  width: 100%;
+  font-size: 24px;
+  height: 80px;
+  line-height: 80px;
+  margin: 0 auto;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: #00a1d5;
+}
+
+nav[template="nav"] a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+nav[template="nav"] a:hover {
+  color: royalblue;
+  -webkit-text-decoration: #ffffff;
+          text-decoration: #ffffff;
+}
+
+[template="nav"] a {
+  color: white;
+  display: inline;
+  margin: 10px;
+  line-height: 30px;
+  text-align: center;
+}
+.info[template="info"] {
+  margin: 0;
+  display: block;
+  height: 230px;
+  background-color: #ecf1f7;
+}
+
+[template="info"] .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+[template="info"] h1 {
+  font-size: 31px;
+  color: #4aa0d0;
+  line-height: 31px;
+  padding-top: 20px;
+  margin-bottom: 5px;
+}
+
+[template="info"] h3 {
+  font-size: 13px;
+  color: #4aa0d0;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+[template="info"] p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 28px;
+}
+.title[template="title"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.swiper-box[template="swiperBox"] {
+  height: 310px;
+  overflow: hidden;
+  width: 470px;
+  margin: 0 auto;
+}
+
+.swiper-box[template="swiperBox"] img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-box[template="swiperBox"] .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.swiper-box[template="swiperBox"] .right {
+  width: 100%;
+  height: 310px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-box[template="swiperBox"] .o-home .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.swiper-box[template="swiperBox"] .pagination {
+  position: absolute;
+  bottom: 5px;
+  height: 20px;
+  right: 5px;
+}
+
+[template="swiperBox"] .swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #555 inset;
+}
+
+[template="swiperBox"] .swiper-active-switch {
+  background-color: #6a8fbb;
+}
+
+[template="swiperBox"] a {
+  text-decoration: none;
+}
+
+[template="swiperBox"] .swiper-slide {
+  position: relative;
+}
+
+[template="swiperBox"] .pagination-pPX8XxuUyIehAAEu {
+  position: absolute;
+  bottom: 4px;
+  right: 10px;
+}
+.title[template="title1"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title2"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title3"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.title[template="title4"] {
+  height: 66px;
+  line-height: 65px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/title-bg.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin-bottom: 20px;
+}
+.card[template="morecard"] {
+  width: 366px;
+  height: 307px;
+  overflow: hidden;
+  margin: 25px 0;
+}
+
+[template="morecard"] .title {
+  height: 40px;
+  line-height: 36px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: bold;
+  color: #4aa0d0;
+  background-image: url('../resource/more-card-title.png');
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  margin-bottom: 20px;
+}
+
+[template="morecard"] li {
+  font-size: 16px;
+  line-height: 32px;
+}
+
+[template="morecard"] a {
+  color: #333;
+}
+
+[template="morecard"] a:hover {
+  color: royalblue;
+}
+.mt30 {
+  font-size: 14px;
+  line-height: 31px;
+  height: 70px;
+  color: white;
+  bottom: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a1d5;
+}
+[template="home"] .main {
+  margin: 0;
+  display: block;
+}
+
+[template="home"] .w1000 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+[template="home"] .news-box {
+  width: 1000px;
+  margin: auto;
+}
+
+[template="home"] .news-box .swiper-box {
+  float: left;
+}
+
+[template="home"] .news-box .right {
+  float: right;
+}
+
+[template="home"] .news-box .right ul {
+  width: 480px;
+  height: 287px;
+}
+
+[template="home"] .news-box .right ul li {
+  color: #333333;
+  font-size: 20px;
+  line-height: 41px;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  padding-left: 20px;
+  background-image: url('../resource/doit.png');
+}
+
+[template="home"] .more {
+  color: #70c1e2;
+  font-size: 14px;
+  text-align: right;
+  line-height: 23px;
+  display: block;
+}
+
+[template="home"] .people-box {
+  width: 1114px;
+  height: 308px;
+  margin: 0 auto;
+  background-image: url('../resource/people-box.png');
+  position: relative;
+  margin-top: -50px;
+  margin-bottom: 20px;
+}
+
+[template="home"] .people-box img {
+  position: absolute;
+  left: 50px;
+  bottom: -1px;
+}
+
+[template="home"] .people-box p {
+  color: #fffefe;
+  font-size: 17px;
+  position: absolute;
+  width: 486px;
+  left: 43%;
+  top: 30%;
+  line-height: 28px;
+}
+
+[template="home"] .news-box {
+  margin-bottom: 50px;
+}
+
+[template="home"] .roll-box {
+  position: relative;
+  width: 1114px;
+  margin: 0 auto;
+}
+
+[template="home"] .roll-box .roll {
+  width: 1114px;
+  height: 330px;
+  margin: 0 auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+[template="home"] .roll-box .left {
+  width: 30px;
+  height: 100%;
+  float: left;
+  background-repeat-x: no-repeat;
+  background-image: url('../resource/line.png');
+}
+
+[template="home"] .roll-box li:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+[template="home"] .roll-box li {
+  height: 185px;
+}
+
+[template="home"] .roll-box li .text {
+  float: left;
+  width: 84px;
+  font-size: 24px;
+  line-height: 30px;
+  color: #96b9ed;
+}
+
+[template="home"] .roll-box li .card-box {
+  float: left;
+  width: 983px;
+}
+
+[template="home"] .roll-box .card {
+  width: 431px;
+  height: 60px;
+  float: left;
+  margin-bottom: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 40px;
+  padding-right: 20px;
+  overflow: hidden;
+  line-height: 30px;
+  font-size: 16px;
+  color: #333333;
+  background-image: url("../resource/card.png");
+}
+
+[template="home"] .roll-box .up,
+[template="home"] .roll-box .down {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+[template="home"] .three-card-box {
+  width: 1100px;
+  margin: 30px auto;
+}
+
+[template="home"] .three-card-box .mini-card {
+  float: left;
+  width: 33.33%;
+  height: 245px;
+}
+
+[template="home"] .three-card-box li {
+  line-height: 32px;
+  font-size: 16px;
+}
+
+[template="home"] .show-card-box {
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+[template="home"] .show-card-1 {
+  height: 315px;
+  background-color: #c7e9f5;
+}
+
+[template="home"] .show-card-1 .show-card-item {
+  float: left;
+  height: 100%;
+  width: 30%;
+  position: relative;
+  border: 1px solid white;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+[template="home"] .show-card-1 .show-card-item h1 {
+  font-size: 24px;
+  color: #206a7b;
+  line-height: 30px;
+}
+
+[template="home"] .show-card-1 .show-card-item h3 {
+  color: #206a7b;
+}
+
+[template="home"] .show-card-1 .show-card-item p {
+  font-size: 16px;
+  color: #333333;
+  line-height: 34px;
+  margin-top: 30px;
+}
+
+[template="home"] .show-card-1 .show-card-item img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 45px;
+  bottom: 0;
+  margin: auto;
+}
+
+[template="home"] .show-card-1 .long {
+  width: 40%;
+}
+
+[template="home"] a {
+  color: #333;
+  display: block;
+}
+
+[template="home"] a:hover {
+  color: royalblue;
+  text-decoration: none;
+}
+
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  user-select: text;
+  font: normal 12px/180% "Microsoft YaHei";
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden;
+}
+html {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+.roll::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background-color: transparent;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+.roll::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+}
+
+/*定义滑块 内阴影+圆角*/
+.roll::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none;
+  background-color: transparent;
+}
+
+.card[template="morecard"] {
+  float: left;
+}
+.info[template="info"] a {
+  display: inline;
+  color: #8787ff;
+}

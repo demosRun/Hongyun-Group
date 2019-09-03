@@ -12,13 +12,13 @@
       <temple name="swiperBox"  src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page"></temple>
       <div class="right">
         <ul>
-          <li>运鸿集团为中国助残事业再立新功</li>
-          <li>省委统战部领导团莅临运鸿调研</li>
-          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
-          <li>李玉保：高精效工作——就要“176”</li>
-          <li>运鸿集团为中国助残事业再立新功</li>
-          <li>省委统战部领导团莅临运导团调研</li>
-          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+          <li><a href="#" target="_blank">省委统战部领导团莅临运鸿调研</a></li>
+          <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
+          <li><a href="#" target="_blank">李玉保：高精效工作——就要“176”</a></li>
+          <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+          <li><a href="#" target="_blank">省委统战部领导团莅临运导团调研</a></li>
+          <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
         </ul>
         <a href="#" class="more">更多>></a>
       </div>
@@ -34,70 +34,75 @@
     <!-- 集团大事件 -->
     <temple name="title" title="集团大事记" src="./src/module/title.owo"></temple>
     <div class="roll-box">
-      <div class="left line"></div>
-      <ul class="right">
-        <li>
-          <div class="text">2017</div>
-          <div class="card-box">
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-          </div>
-        </li>
-        <li>
-          <div class="text">2017</div>
-          <div class="card-box">
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-          </div>
-        </li>
-        <li>
-          <div class="text">2017</div>
-          <div class="card-box">
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-          </div>
-        </li>
-        <li>
-          <div class="text">2017</div>
-          <div class="card-box">
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-            <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
-          </div>
-        </li>
-      </ul>
+      <!-- 向上向下按钮 -->
+      <img class="up" :tap="rollUp" src="@|up.png|"/>
+      <div class="roll">
+        <div class="left line"></div>
+        <ul class="right">
+          <li>
+            <div class="text">2017</div>
+            <div class="card-box">
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            </div>
+          </li>
+          <li>
+            <div class="text">2017</div>
+            <div class="card-box">
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            </div>
+          </li>
+          <li>
+            <div class="text">2017</div>
+            <div class="card-box">
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            </div>
+          </li>
+          <li>
+            <div class="text">2017</div>
+            <div class="card-box">
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+              <div class="card">2016年10月7日 湖北省直机关“运鸿能源杯”国庆桥牌赛于国家发展和改革委员会培训中心湖北教育培训基地成功举办。此次比赛由湖北省直机关桥牌协会主办，湖北运鸿能源集团协办</div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <img class="down" :tap="rollDown" src="@|down.png|"/>
     </div>
     <!-- 健康肽 肽健康 -->
     <temple name="title" title="健康肽 肽健康" src="./src/module/title.owo"></temple>
     <div class="three-card-box clear">
       <div class="mini-card">
-        <img src="@|1.jpg|"/>
+        <img src="@|1.jpg|" width="343" height="226"/>
       </div>
       <ul class="mini-card">
-        <li>运鸿集团为中国助残事业再立新功</li>
-        <li>省委统战部领导团莅临运鸿调研</li>
-        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
-        <li>李玉保：高精效工作——就要“176”</li>
-        <li>运鸿集团为中国助残事业再立新功</li>
-        <li>省委统战部领导团莅临运导团调研</li>
-        <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+        <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+        <li><a href="#" target="_blank">省委统战部领导团莅临运鸿调研</a></li>
+        <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
+        <li><a href="#" target="_blank">李玉保：高精效工作——就要“176”</a></li>
+        <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+        <li><a href="#" target="_blank">省委统战部领导团莅临运导团调研</a></li>
+        <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
       </ul>
       <div class="mini-card">
         <ul>
-          <li>运鸿集团为中国助残事业再立新功</li>
-          <li>省委统战部领导团莅临运鸿调研</li>
-          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
-          <li>李玉保：高精效工作——就要“176”</li>
-          <li>运鸿集团为中国助残事业再立新功</li>
-          <li>省委统战部领导团莅临运导团调研</li>
-          <li>湖北民企深耕“一带一路”政策吸引多国目光</li>
+          <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+          <li><a href="#" target="_blank">省委统战部领导团莅临运鸿调研</a></li>
+          <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
+          <li><a href="#" target="_blank">李玉保：高精效工作——就要“176”</a></li>
+          <li><a href="#" target="_blank">运鸿集团为中国助残事业再立新功</a></li>
+          <li><a href="#" target="_blank">省委统战部领导团莅临运导团调研</a></li>
+          <li><a href="#" target="_blank">湖北民企深耕“一带一路”政策吸引多国目光</a></li>
         </ul>
         <a href="#" class="more">更多>></a>
       </div>
@@ -113,11 +118,11 @@
         <div class="show-card-item">
           <h1>个人洗护</h1>
           <h3>牙膏+漱口水</h3>
-          <img src="@|2.jpg|"/>
+          <img src="@|2.jpg|" width="261" height="218"/>
         </div>
         <div class="show-card-item">
           <h1>个人洗护</h1>
-          <img src="@|2.jpg|"/>
+          <img src="@|2.jpg|" width="261" height="218"/>
         </div>
       </div>
       <div class="show-card-1 clear">
@@ -128,11 +133,11 @@
         <div class="show-card-item">
           <h1>个人洗护</h1>
           <h3>牙膏+漱口水</h3>
-          <img src="@|2.jpg|"/>
+          <img src="@|2.jpg|" width="261" height="218"/>
         </div>
         <div class="show-card-item">
           <h1>个人洗护</h1>
-          <img src="@|2.jpg|"/>
+          <img src="@|2.jpg|" width="261" height="218"/>
         </div>
       </div>
       <!-- 很多卡片的列表 -->
@@ -145,6 +150,7 @@
         <temple name="morecard" src="./src/module/card.owo"></temple>
       </div>
     </div>
+    <temple name="copyright" src="./src/module/copyright.owo"></temple>
   </div>
 </template>
 
@@ -152,6 +158,12 @@
   module.exports = {
     created: function () {
       this.query('.roll-box .left')[0].style.height = this.query('.roll-box li').length * 176 + 'px'
+    },
+    rollUp: function () {
+      this.query('.roll')[0].scrollTop = this.query('.roll')[0].scrollTop - 300
+    },
+    rollDown: function () {
+      this.query('.roll')[0].scrollTop = this.query('.roll')[0].scrollTop + 300
     }
   }
 </script>
@@ -191,7 +203,7 @@
 }
 .more {
   color: #70c1e2;
-  font-size: 18px;
+  font-size: 14px;
   text-align: right;
   line-height: 23px;
   display: block;
@@ -223,11 +235,18 @@
   margin-bottom: 50px;
 }
 .roll-box {
+  position: relative;
   width: 1114px;
-  height: 330px;
   margin: 0 auto;
-  overflow-y: scroll;
-  overflow-x: hidden;
+  .roll {
+    width: 1114px;
+    height: 330px;
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    margin-bottom: 8px;
+  }
   .left {
     width: 30px;
     height: 100%;
@@ -272,6 +291,10 @@
     color: #333333;
     background-image: url("@|card.png|")
   }
+  .up, .down {
+    margin-left: 6px;
+    cursor: pointer;
+  }
 }
 
 .three-card-box {
@@ -290,6 +313,7 @@
 .show-card-box {
   width: 1100px;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 .show-card-1 {
   height: 315px;
@@ -308,7 +332,7 @@
       line-height: 30px;
     }
     p {
-      font-size: 18px;
+      font-size: 16px;
       color: #333333;
       line-height: 34px;
       margin-top: 30px;
@@ -325,5 +349,13 @@
   .long {
     width: 40%;
   }
+}
+a {
+  color: #333;
+  display: block;
+}
+a:hover {
+  color: royalblue;
+  text-decoration: underline;
 }
 </style>

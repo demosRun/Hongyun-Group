@@ -1,4 +1,197 @@
-// Tue Sep 03 2019 00:38:05 GMT+0800 (GMT+08:00)
+// Tue Sep 03 2019 09:56:20 GMT+0800 (GMT+08:00)
+
+
+// 设计宽度
+var deviseW = 1920
+
+function getScale () {
+  const scale = window.innerWidth / deviseW
+  // console.log((screenInfo.clientWidth - 750 * scale) / 2)
+  // console.log(screenInfo.clientWidth - (750 * WC), scale)
+  // console.log(screenInfo.clientWidth * scale)
+  // console.log(`scale(${scale}, ${scale})`)
+  document.body.style.width = deviseW + 'px'
+  document.body.style.transform = `scale(${scale}, ${scale})`
+  // this.$el.style.left = ((screenInfo.clientWidth - 750 * scale) / 2) + 'px'
+  document.body.style.transformOrigin = `0 0 0`
+  setTimeout(() => {
+    document.getElementsByTagName('html')[0].style.height = document.body.offsetHeight * scale + 'px'
+  }, 0)
+}
+
+getScale()
+
+let timer = null
+window.onresize = () => {
+  console.log(timer)
+  if (!timer) {
+    timer = setTimeout(() => {
+      getScale()
+      timer = null
+    }, 1000)
+  }
+}
+
+// 存储页面基本信息
+var owo = {
+  // 页面默认入口 如果没有设置 则取第一个页面为默认页面
+  entry: "home",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "created": function created() {
+      this.query('.roll-box .left')[0].style.height = this.query('.roll-box li').length * 176 + 'px';
+    },
+    "rollUp": function rollUp() {
+      this.query('.roll')[0].scrollTop = this.query('.roll')[0].scrollTop - 300;
+    },
+    "rollDown": function rollDown() {
+      this.query('.roll')[0].scrollTop = this.query('.roll')[0].scrollTop + 300;
+    },
+    "template": {
+      "nav": {
+        "data": {
+          "itemLiat": [{
+            "url": "http://www.people.com.cn/",
+            "name": "集团介绍"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "大事记"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "焦点图新闻"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "新闻资讯"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "媒体报道"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "科普知识"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "产品服务"
+          }, {
+            "url": "http://www.people.com.cn/",
+            "name": "社会责任"
+          }]
+        },
+        "prop": {}
+      },
+      "info": {
+        "created": function created() {},
+        "prop": {}
+      },
+      "title": {
+        "created": function created() {},
+        "prop": {
+          "title": "新闻资讯"
+        }
+      },
+      "swiperBox": {
+        "data": {
+          "swiperBoxList": [{
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }]
+        },
+        "created": function created() {
+          // 轮播图展示区域swiper
+          setTimeout(function () {
+            new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+              pagination: '.pagination-pPX8XxuUyIehAAEu',
+              paginationClickable: true
+            });
+          }, 0);
+        },
+        "prop": {}
+      },
+      "title1": {
+        "created": function created() {},
+        "prop": {
+          "title": "集团领导致辞"
+        }
+      },
+      "title2": {
+        "created": function created() {},
+        "prop": {
+          "title": "集团大事记"
+        }
+      },
+      "title3": {
+        "created": function created() {},
+        "prop": {
+          "title": "健康肽 肽健康"
+        }
+      },
+      "title4": {
+        "created": function created() {},
+        "prop": {
+          "title": "运鸿肽家园"
+        }
+      },
+      "morecard": {
+        "created": function created() {},
+        "prop": {}
+      },
+      "morecard1": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard2": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard3": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard4": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "morecard5": {
+        "created": function created() {},
+        "prop": {
+          "name": "morecard",
+          "src": "./src/module/card.owo"
+        }
+      },
+      "copyright": {
+        "prop": {}
+      }
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {
@@ -238,10 +431,28 @@ _owo.handlePage = function (newPageFunction, entryDom) {
     // 待修复,临时获取方式,这种方式获取到的dom不准确
     var childDom = entryDom.querySelectorAll('[template="' + key +'"]')[0]
     if (!childDom) {
-      console.error('组件丢失:', key)
       continue
     }
     // 递归处理
     _owo.handlePage(templateScript, childDom)
   }
+}
+_owo._event_tap = function (tempDom, callBack) {
+  // 变量
+  var startTime = 0
+  var isMove = false
+  tempDom.addEventListener('touchstart', function() {
+    startTime = Date.now();
+  })
+  tempDom.addEventListener('touchmove', function() {
+    isMove = true
+  })
+  tempDom.addEventListener('touchend', function(e) {
+    if (Date.now() - startTime < 300 && !isMove) {
+      callBack(e)
+    }
+    // 清零
+    startTime = 0;
+    isMove = false
+  })
 }

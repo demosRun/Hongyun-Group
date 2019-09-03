@@ -1,124 +1,125 @@
-00:38:04.136 INFO  --------------------------- 开始编译 --------------------------- 
-00:38:04.137 INFO  程序运行目录: C:\Users\my\Documents\GitHub\Hongyun-Group 
-00:38:04.137 INFO  首次启动! 
-00:38:04.137 INFO  生成版本号: xi80yxfrzm 
-00:38:04.137 INFO  清理资源文件夹: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static 
-00:38:04.137 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static 
-00:38:04.137 INFO  创建文件夹: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static 
-00:38:04.137 INFO  读取模板文件: C:\Users\my\Documents\GitHub\pack\lib\index.html 
-00:38:04.138 DEBUG 读取网页标题: 页面 
-00:38:04.138 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
-00:38:04.138 DEBUG 模块 home 因名称重复被重命名为 home0 
-00:38:04.138 INFO  开始处理模块: home 
-00:38:04.189 INFO  开始处理模块: nav 
-00:38:04.190 DEBUG 使用文件缓存:C:\Users\my\Documents\GitHub\Hongyun-Group\owo_modules\f8b61b739b55d50e9dc2e01e9c0deebe.owo 
-00:38:04.247 DEBUG 缓存模板: navundefined 
-00:38:04.250 DEBUG 模板home处理用时: 62 毫秒! 
-00:38:04.250 DEBUG 模块 info 因名称重复被重命名为 info0 
-00:38:04.250 INFO  开始处理模块: info 
-00:38:04.260 DEBUG 缓存模板: infoundefined 
-00:38:04.262 DEBUG 模板home处理用时: 12 毫秒! 
-00:38:04.262 DEBUG 模块 title 因名称重复被重命名为 title0 
-00:38:04.262 INFO  开始处理模块: title 
-00:38:04.269 DEBUG 缓存模板: titleundefined 
-00:38:04.270 DEBUG 模板home处理用时: 8 毫秒! 
-00:38:04.270 DEBUG 模块 swiperBox 因名称重复被重命名为 swiperBox0 
-00:38:04.270 INFO  开始处理模块: swiperBox 
-00:38:04.270 DEBUG 使用文件缓存:C:\Users\my\Documents\GitHub\Hongyun-Group\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
-00:38:04.671 DEBUG 缓存模板: swiperBoxundefined 
-00:38:04.673 DEBUG 模板home处理用时: 403 毫秒! 
-00:38:04.674 DEBUG 模块 title1 因名称重复被重命名为 title1 
-00:38:04.674 INFO  开始处理模块: title1 
-00:38:04.677 DEBUG 缓存模板: title1undefined 
-00:38:04.678 DEBUG 模板home处理用时: 4 毫秒! 
-00:38:04.678 DEBUG 模块 title2 因名称重复被重命名为 title2 
-00:38:04.678 INFO  开始处理模块: title2 
-00:38:04.681 DEBUG 缓存模板: title2undefined 
-00:38:04.681 DEBUG 模板home处理用时: 3 毫秒! 
-00:38:04.683 DEBUG 模块 title3 因名称重复被重命名为 title3 
-00:38:04.683 INFO  开始处理模块: title3 
-00:38:04.686 DEBUG 缓存模板: title3undefined 
-00:38:04.686 DEBUG 模板home处理用时: 3 毫秒! 
-00:38:04.687 DEBUG 模块 title4 因名称重复被重命名为 title4 
-00:38:04.687 INFO  开始处理模块: title4 
-00:38:04.690 DEBUG 缓存模板: title4undefined 
-00:38:04.690 DEBUG 模板home处理用时: 3 毫秒! 
-00:38:04.691 DEBUG 模块 morecard 因名称重复被重命名为 morecard0 
-00:38:04.691 INFO  开始处理模块: morecard 
-00:38:04.697 DEBUG 缓存模板: morecardundefined 
-00:38:04.701 DEBUG 模板home处理用时: 10 毫秒! 
-00:38:04.702 DEBUG 模块 morecard1 因名称重复被重命名为 morecard1 
-00:38:04.702 INFO  开始处理模块: morecard1 
-00:38:04.702 DEBUG 使用缓存返回模板: morecard1 
-00:38:04.703 DEBUG 模板home处理用时: 2 毫秒! 
-00:38:04.704 DEBUG 模块 morecard2 因名称重复被重命名为 morecard2 
-00:38:04.704 INFO  开始处理模块: morecard2 
-00:38:04.704 DEBUG 使用缓存返回模板: morecard2 
-00:38:04.705 DEBUG 模板home处理用时: 2 毫秒! 
-00:38:04.705 DEBUG 模块 morecard3 因名称重复被重命名为 morecard3 
-00:38:04.705 INFO  开始处理模块: morecard3 
-00:38:04.705 DEBUG 使用缓存返回模板: morecard3 
-00:38:04.707 DEBUG 模板home处理用时: 2 毫秒! 
-00:38:04.707 DEBUG 模块 morecard4 因名称重复被重命名为 morecard4 
-00:38:04.707 INFO  开始处理模块: morecard4 
-00:38:04.707 DEBUG 使用缓存返回模板: morecard4 
-00:38:04.709 DEBUG 模板home处理用时: 2 毫秒! 
-00:38:04.710 DEBUG 模块 morecard5 因名称重复被重命名为 morecard5 
-00:38:04.710 INFO  开始处理模块: morecard5 
-00:38:04.710 DEBUG 使用缓存返回模板: morecard5 
-00:38:04.712 DEBUG 模板home处理用时: 3 毫秒! 
-00:38:04.731 DEBUG 缓存模板: home./src/page/home.page 
-00:38:04.732 DEBUG 模板home处理用时: 594 毫秒! 
-00:38:04.733 INFO  文件夹不存在: C:/Users/my/Documents/GitHub/Hongyun-Group/dist/static/resource 
-00:38:04.733 INFO  创建文件夹: C:/Users/my/Documents/GitHub/Hongyun-Group/dist/static/resource 
-00:38:04.734 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/title-bg.png 
-00:38:04.734 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/title-bg.png 
-00:38:04.734 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/title-bg.png 
-00:38:04.734 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/title-bg.png 
-00:38:04.735 DEBUG 处理资源: ["C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/title-bg.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/more-card-title.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/doit.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/people-box.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/line.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/card.png"] 
-00:38:04.735 DEBUG 资源目录: C:/Users/my/Documents/GitHub/Hongyun-Group/dist/static/resource 
-00:38:04.736 DEBUG css中的资源处理完毕! 
-00:38:04.736 DEBUG 使用postcss处理样式，使用了1个插件! 
-00:38:04.788 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\css 
-00:38:04.788 INFO  创建文件夹: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\css 
-00:38:04.788 INFO  开始处理附属css中的资源 
-00:38:04.788 INFO  附属css中的资源处理完毕! 
-00:38:04.788 INFO  读取文件: C:\Users\my\Documents\GitHub\Hongyun-Group\src\resource\idangerous.swiper2.7.0.css 
-00:38:04.788 INFO  附属css中的资源不需要处理! 
-00:38:04.789 INFO  处理字体:{} 
-00:38:04.910 INFO  使用postcss处理完毕! 用时: 174 毫秒 
-00:38:04.910 DEBUG 需要经过特殊处理的css: [["[template=\"nav\"] nav:","nav[template=\"nav\"]:"],["[template=\"nav\"] nav ","nav[template=\"nav\"] "],["[template=\"nav\"] nav{","nav[template=\"nav\"]{"],["[template=\"info\"] .info:",".info[template=\"info\"]:"],["[template=\"info\"] .info ",".info[template=\"info\"] "],["[template=\"info\"] .info{",".info[template=\"info\"]{"],["[template=\"info\"] div:","div[template=\"info\"]:"],["[template=\"info\"] div ","div[template=\"info\"] "],["[template=\"info\"] div{","div[template=\"info\"]{"],["[template=\"title\"] .title:",".title[template=\"title\"]:"],["[template=\"title\"] .title ",".title[template=\"title\"] "],["[template=\"title\"] .title{",".title[template=\"title\"]{"],["[template=\"title\"] div:","div[template=\"title\"]:"],["[template=\"title\"] div ","div[template=\"title\"] "],["[template=\"title\"] div{","div[template=\"title\"]{"],["[template=\"swiperBox\"] .swiper-box:",".swiper-box[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] .swiper-box ",".swiper-box[template=\"swiperBox\"] "],["[template=\"swiperBox\"] .swiper-box{",".swiper-box[template=\"swiperBox\"]{"],["[template=\"swiperBox\"] div:","div[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] div ","div[template=\"swiperBox\"] "],["[template=\"swiperBox\"] div{","div[template=\"swiperBox\"]{"],["[template=\"title1\"] .title:",".title[template=\"title1\"]:"],["[template=\"title1\"] .title ",".title[template=\"title1\"] "],["[template=\"title1\"] .title{",".title[template=\"title1\"]{"],["[template=\"title1\"] div:","div[template=\"title1\"]:"],["[template=\"title1\"] div ","div[template=\"title1\"] "],["[template=\"title1\"] div{","div[template=\"title1\"]{"],["[template=\"title2\"] .title:",".title[template=\"title2\"]:"],["[template=\"title2\"] .title ",".title[template=\"title2\"] "],["[template=\"title2\"] .title{",".title[template=\"title2\"]{"],["[template=\"title2\"] div:","div[template=\"title2\"]:"],["[template=\"title2\"] div ","div[template=\"title2\"] "],["[template=\"title2\"] div{","div[template=\"title2\"]{"],["[template=\"title3\"] .title:",".title[template=\"title3\"]:"],["[template=\"title3\"] .title ",".title[template=\"title3\"] "],["[template=\"title3\"] .title{",".title[template=\"title3\"]{"],["[template=\"title3\"] div:","div[template=\"title3\"]:"],["[template=\"title3\"] div ","div[template=\"title3\"] "],["[template=\"title3\"] div{","div[template=\"title3\"]{"],["[template=\"title4\"] .title:",".title[template=\"title4\"]:"],["[template=\"title4\"] .title ",".title[template=\"title4\"] "],["[template=\"title4\"] .title{",".title[template=\"title4\"]{"],["[template=\"title4\"] div:","div[template=\"title4\"]:"],["[template=\"title4\"] div ","div[template=\"title4\"] "],["[template=\"title4\"] div{","div[template=\"title4\"]{"],["[template=\"morecard\"] .card:",".card[template=\"morecard\"]:"],["[template=\"morecard\"] .card ",".card[template=\"morecard\"] "],["[template=\"morecard\"] .card{",".card[template=\"morecard\"]{"],["[template=\"morecard\"] div:","div[template=\"morecard\"]:"],["[template=\"morecard\"] div ","div[template=\"morecard\"] "],["[template=\"morecard\"] div{","div[template=\"morecard\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
-00:38:04.911 INFO  正在处理script! 
-00:38:04.911 INFO  工程中只有一个页面! 
-00:38:04.912 INFO  文件夹不存在: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\js 
-00:38:04.913 INFO  创建文件夹: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\js 
-00:38:04.913 DEBUG 选择将js合并到html中! 
-00:38:05.572 INFO  js中的资源处理完毕! 
-00:38:05.572 INFO  读取文件: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
-00:38:05.572 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0.min","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}] 
-00:38:05.572 DEBUG 外部脚本数量: 3 
-00:38:05.572 DEBUG 处理脚本: jquery1.11.0 
-00:38:05.572 DEBUG 网络脚本: jquery1.11.0 
-00:38:05.572 DEBUG 处理脚本: idangerous.swiper2.7.0.min 
-00:38:05.572 INFO  读取文件: C:\Users\my\Documents\GitHub\Hongyun-Group\src\resource\idangerous.swiper2.7.0.min.js 
-00:38:05.572 DEBUG 处理脚本: main 
-00:38:05.572 INFO  读取文件: C:\Users\my\Documents\GitHub\Hongyun-Group\src\main.js 
-00:38:05.573 DEBUG 输出scriptData 
-00:38:05.573 DEBUG 准备输出html! 
-00:38:05.574 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/2.jpg 
-00:38:05.574 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/2.jpg 
-00:38:05.574 DEBUG 忽略文件: C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/2.jpg 
-00:38:05.574 DEBUG 处理资源: ["C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/main.jpg","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/people.png","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/1.jpg","C:/Users/my/Documents/GitHub/Hongyun-Group/src/resource/2.jpg"] 
-00:38:05.574 DEBUG 资源目录: C:/Users/my/Documents/GitHub/Hongyun-Group/dist/static/resource 
-00:38:05.576 INFO  发送重新页面需要刷新命令! 
-00:38:05.593 INFO  主要逻辑文件写出成功! 
-00:38:05.595 INFO  读取成功: C:\Users\my\Documents\GitHub\Hongyun-Group\src\main.css 
-00:38:05.595 INFO  读取成功: C:\Users\my\Documents\GitHub\Hongyun-Group\src\resource\idangerous.swiper2.7.0.css 
-00:38:05.595 INFO  读取成功: C:\Users\my\Documents\GitHub\pack\core\debug\autoReload.js 
-00:38:05.595 INFO  读取成功: C:\Users\my\Documents\GitHub\Hongyun-Group\src\main.js 
-00:38:05.649 INFO  写入文件: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\css\main.css 
-00:38:05.649 INFO  写入文件: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\css\idangerous.swiper2.7.0.css 
-00:38:05.649 INFO  写入文件: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\js\main.js 
-00:38:05.649 INFO  写入文件: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\js\autoReload.js 
-00:38:05.677 INFO  读取成功: C:\Users\my\Documents\GitHub\Hongyun-Group\src\resource\idangerous.swiper2.7.0.min.js 
-00:38:05.707 INFO  写入文件: C:\Users\my\Documents\GitHub\Hongyun-Group\dist\static\js\idangerous.swiper2.7.0.min.js 
+09:56:19.805 INFO  --------------------------- 开始编译 --------------------------- 
+09:56:19.805 INFO  程序运行目录: D:\work\Hongyun Group 
+09:56:19.805 INFO  首次启动! 
+09:56:19.805 INFO  生成版本号: jmhose512dg 
+09:56:19.820 INFO  清理资源文件夹: D:\work\Hongyun Group\dist\static 
+09:56:19.820 INFO  文件夹不存在: D:\work\Hongyun Group\dist\static 
+09:56:19.820 INFO  创建文件夹: D:\work\Hongyun Group\dist\static 
+09:56:19.820 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+09:56:19.820 DEBUG 读取网页标题: 页面 
+09:56:19.820 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+09:56:19.821 DEBUG 模块 home 因名称重复被重命名为 home0 
+09:56:19.821 INFO  开始处理模块: home 
+09:56:19.872 INFO  开始处理模块: nav 
+09:56:19.872 DEBUG 使用文件缓存:D:\work\Hongyun Group\owo_modules\f8b61b739b55d50e9dc2e01e9c0deebe.owo 
+09:56:19.926 DEBUG 缓存模板: navundefined 
+09:56:19.928 DEBUG 模板home处理用时: 57 毫秒! 
+09:56:19.928 DEBUG 模块 info 因名称重复被重命名为 info0 
+09:56:19.928 INFO  开始处理模块: info 
+09:56:19.937 DEBUG 缓存模板: infoundefined 
+09:56:19.938 DEBUG 模板home处理用时: 10 毫秒! 
+09:56:19.939 DEBUG 模块 title 因名称重复被重命名为 title0 
+09:56:19.939 INFO  开始处理模块: title 
+09:56:19.943 DEBUG 缓存模板: titleundefined 
+09:56:19.944 DEBUG 模板home处理用时: 5 毫秒! 
+09:56:19.944 DEBUG 模块 swiperBox 因名称重复被重命名为 swiperBox0 
+09:56:19.944 INFO  开始处理模块: swiperBox 
+09:56:19.944 DEBUG 使用文件缓存:D:\work\Hongyun Group\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+09:56:20.307 DEBUG 缓存模板: swiperBoxundefined 
+09:56:20.309 DEBUG 模板home处理用时: 365 毫秒! 
+09:56:20.309 DEBUG 模块 title1 因名称重复被重命名为 title1 
+09:56:20.309 INFO  开始处理模块: title1 
+09:56:20.313 DEBUG 缓存模板: title1undefined 
+09:56:20.313 DEBUG 模板home处理用时: 4 毫秒! 
+09:56:20.314 DEBUG 模块 title2 因名称重复被重命名为 title2 
+09:56:20.314 INFO  开始处理模块: title2 
+09:56:20.317 DEBUG 缓存模板: title2undefined 
+09:56:20.320 DEBUG 模板home处理用时: 6 毫秒! 
+09:56:20.321 DEBUG 模块 title3 因名称重复被重命名为 title3 
+09:56:20.321 INFO  开始处理模块: title3 
+09:56:20.324 DEBUG 缓存模板: title3undefined 
+09:56:20.325 DEBUG 模板home处理用时: 4 毫秒! 
+09:56:20.327 DEBUG 模块 title4 因名称重复被重命名为 title4 
+09:56:20.327 INFO  开始处理模块: title4 
+09:56:20.330 DEBUG 缓存模板: title4undefined 
+09:56:20.332 DEBUG 模板home处理用时: 6 毫秒! 
+09:56:20.333 DEBUG 模块 morecard 因名称重复被重命名为 morecard0 
+09:56:20.333 INFO  开始处理模块: morecard 
+09:56:20.340 DEBUG 缓存模板: morecardundefined 
+09:56:20.343 DEBUG 模板home处理用时: 10 毫秒! 
+09:56:20.343 DEBUG 模块 morecard1 因名称重复被重命名为 morecard1 
+09:56:20.343 INFO  开始处理模块: morecard1 
+09:56:20.343 DEBUG 使用缓存返回模板: morecard1 
+09:56:20.345 DEBUG 模板home处理用时: 2 毫秒! 
+09:56:20.345 DEBUG 模块 morecard2 因名称重复被重命名为 morecard2 
+09:56:20.345 INFO  开始处理模块: morecard2 
+09:56:20.345 DEBUG 使用缓存返回模板: morecard2 
+09:56:20.348 DEBUG 模板home处理用时: 3 毫秒! 
+09:56:20.348 DEBUG 模块 morecard3 因名称重复被重命名为 morecard3 
+09:56:20.348 INFO  开始处理模块: morecard3 
+09:56:20.348 DEBUG 使用缓存返回模板: morecard3 
+09:56:20.350 DEBUG 模板home处理用时: 2 毫秒! 
+09:56:20.351 DEBUG 模块 morecard4 因名称重复被重命名为 morecard4 
+09:56:20.351 INFO  开始处理模块: morecard4 
+09:56:20.351 DEBUG 使用缓存返回模板: morecard4 
+09:56:20.353 DEBUG 模板home处理用时: 3 毫秒! 
+09:56:20.354 DEBUG 模块 morecard5 因名称重复被重命名为 morecard5 
+09:56:20.354 INFO  开始处理模块: morecard5 
+09:56:20.354 DEBUG 使用缓存返回模板: morecard5 
+09:56:20.357 DEBUG 模板home处理用时: 4 毫秒! 
+09:56:20.357 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+09:56:20.357 INFO  开始处理模块: copyright 
+09:56:20.359 DEBUG 缓存模板: copyrightundefined 
+09:56:20.360 DEBUG 模板home处理用时: 3 毫秒! 
+09:56:20.380 DEBUG 缓存模板: home./src/page/home.page 
+09:56:20.380 DEBUG 模板home处理用时: 559 毫秒! 
+09:56:20.381 INFO  文件夹不存在: D:/work/Hongyun Group/dist/static/resource 
+09:56:20.381 INFO  创建文件夹: D:/work/Hongyun Group/dist/static/resource 
+09:56:20.382 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/title-bg.png 
+09:56:20.382 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/title-bg.png 
+09:56:20.382 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/title-bg.png 
+09:56:20.382 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/title-bg.png 
+09:56:20.383 DEBUG 处理资源: ["D:/work/Hongyun Group/src/resource/title-bg.png","D:/work/Hongyun Group/src/resource/more-card-title.png","D:/work/Hongyun Group/src/resource/doit.png","D:/work/Hongyun Group/src/resource/people-box.png","D:/work/Hongyun Group/src/resource/line.png","D:/work/Hongyun Group/src/resource/card.png"] 
+09:56:20.383 DEBUG 资源目录: D:/work/Hongyun Group/dist/static/resource 
+09:56:20.385 DEBUG css中的资源处理完毕! 
+09:56:20.385 DEBUG 使用postcss处理样式，使用了1个插件! 
+09:56:20.469 INFO  文件夹不存在: D:\work\Hongyun Group\dist\static\css 
+09:56:20.470 INFO  创建文件夹: D:\work\Hongyun Group\dist\static\css 
+09:56:20.470 INFO  开始处理附属css中的资源 
+09:56:20.470 INFO  附属css中的资源处理完毕! 
+09:56:20.470 INFO  读取文件: D:\work\Hongyun Group\src\resource\idangerous.swiper2.7.0.css 
+09:56:20.470 INFO  附属css中的资源不需要处理! 
+09:56:20.470 INFO  处理字体:{} 
+09:56:20.487 INFO  使用postcss处理完毕! 用时: 102 毫秒 
+09:56:20.487 DEBUG 需要经过特殊处理的css: [["[template=\"nav\"] nav:","nav[template=\"nav\"]:"],["[template=\"nav\"] nav ","nav[template=\"nav\"] "],["[template=\"nav\"] nav{","nav[template=\"nav\"]{"],["[template=\"info\"] .info:",".info[template=\"info\"]:"],["[template=\"info\"] .info ",".info[template=\"info\"] "],["[template=\"info\"] .info{",".info[template=\"info\"]{"],["[template=\"info\"] div:","div[template=\"info\"]:"],["[template=\"info\"] div ","div[template=\"info\"] "],["[template=\"info\"] div{","div[template=\"info\"]{"],["[template=\"title\"] .title:",".title[template=\"title\"]:"],["[template=\"title\"] .title ",".title[template=\"title\"] "],["[template=\"title\"] .title{",".title[template=\"title\"]{"],["[template=\"title\"] div:","div[template=\"title\"]:"],["[template=\"title\"] div ","div[template=\"title\"] "],["[template=\"title\"] div{","div[template=\"title\"]{"],["[template=\"swiperBox\"] .swiper-box:",".swiper-box[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] .swiper-box ",".swiper-box[template=\"swiperBox\"] "],["[template=\"swiperBox\"] .swiper-box{",".swiper-box[template=\"swiperBox\"]{"],["[template=\"swiperBox\"] div:","div[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] div ","div[template=\"swiperBox\"] "],["[template=\"swiperBox\"] div{","div[template=\"swiperBox\"]{"],["[template=\"title1\"] .title:",".title[template=\"title1\"]:"],["[template=\"title1\"] .title ",".title[template=\"title1\"] "],["[template=\"title1\"] .title{",".title[template=\"title1\"]{"],["[template=\"title1\"] div:","div[template=\"title1\"]:"],["[template=\"title1\"] div ","div[template=\"title1\"] "],["[template=\"title1\"] div{","div[template=\"title1\"]{"],["[template=\"title2\"] .title:",".title[template=\"title2\"]:"],["[template=\"title2\"] .title ",".title[template=\"title2\"] "],["[template=\"title2\"] .title{",".title[template=\"title2\"]{"],["[template=\"title2\"] div:","div[template=\"title2\"]:"],["[template=\"title2\"] div ","div[template=\"title2\"] "],["[template=\"title2\"] div{","div[template=\"title2\"]{"],["[template=\"title3\"] .title:",".title[template=\"title3\"]:"],["[template=\"title3\"] .title ",".title[template=\"title3\"] "],["[template=\"title3\"] .title{",".title[template=\"title3\"]{"],["[template=\"title3\"] div:","div[template=\"title3\"]:"],["[template=\"title3\"] div ","div[template=\"title3\"] "],["[template=\"title3\"] div{","div[template=\"title3\"]{"],["[template=\"title4\"] .title:",".title[template=\"title4\"]:"],["[template=\"title4\"] .title ",".title[template=\"title4\"] "],["[template=\"title4\"] .title{",".title[template=\"title4\"]{"],["[template=\"title4\"] div:","div[template=\"title4\"]:"],["[template=\"title4\"] div ","div[template=\"title4\"] "],["[template=\"title4\"] div{","div[template=\"title4\"]{"],["[template=\"morecard\"] .card:",".card[template=\"morecard\"]:"],["[template=\"morecard\"] .card ",".card[template=\"morecard\"] "],["[template=\"morecard\"] .card{",".card[template=\"morecard\"]{"],["[template=\"morecard\"] div:","div[template=\"morecard\"]:"],["[template=\"morecard\"] div ","div[template=\"morecard\"] "],["[template=\"morecard\"] div{","div[template=\"morecard\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+09:56:20.494 INFO  正在处理script! 
+09:56:20.495 INFO  工程中只有一个页面! 
+09:56:20.496 INFO  文件夹不存在: D:\work\Hongyun Group\dist\static\js 
+09:56:20.497 INFO  创建文件夹: D:\work\Hongyun Group\dist\static\js 
+09:56:21.178 INFO  js中的资源处理完毕! 
+09:56:21.178 DEBUG 处理引用脚本: [{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"},{"name":"idangerous.swiper2.7.0.min","src":"./src/resource/idangerous.swiper2.7.0.min.js"},{"name":"main","src":"./src/main.js","resource":true}] 
+09:56:21.178 DEBUG 外部脚本数量: 3 
+09:56:21.178 DEBUG 处理脚本: jquery1.11.0 
+09:56:21.178 DEBUG 网络脚本: jquery1.11.0 
+09:56:21.178 DEBUG 处理脚本: idangerous.swiper2.7.0.min 
+09:56:21.178 INFO  读取文件: D:\work\Hongyun Group\src\resource\idangerous.swiper2.7.0.min.js 
+09:56:21.178 DEBUG 处理脚本: main 
+09:56:21.178 INFO  读取文件: D:\work\Hongyun Group\src\main.js 
+09:56:21.178 DEBUG 输出scriptData 
+09:56:21.179 DEBUG 准备输出html! 
+09:56:21.179 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/2.jpg 
+09:56:21.179 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/2.jpg 
+09:56:21.179 DEBUG 忽略文件: D:/work/Hongyun Group/src/resource/2.jpg 
+09:56:21.179 DEBUG 处理资源: ["D:/work/Hongyun Group/src/resource/main.jpg","D:/work/Hongyun Group/src/resource/people.png","D:/work/Hongyun Group/src/resource/up.png","D:/work/Hongyun Group/src/resource/down.png","D:/work/Hongyun Group/src/resource/1.jpg","D:/work/Hongyun Group/src/resource/2.jpg"] 
+09:56:21.179 DEBUG 资源目录: D:/work/Hongyun Group/dist/static/resource 
+09:56:21.179 DEBUG 开始美化html 
+09:56:21.258 INFO  主要逻辑文件写出成功! 
+09:56:21.258 INFO  写入文件: D:\work\Hongyun Group\dist\static\css\owo.main.jmhose512dg.css 
+09:56:21.258 INFO  读取成功: D:\work\Hongyun Group\src\main.css 
+09:56:21.258 INFO  读取成功: D:\work\Hongyun Group\src\resource\idangerous.swiper2.7.0.css 
+09:56:21.259 INFO  读取成功: D:\work\Hongyun Group\src\main.js 
+09:56:21.510 INFO  写入文件: D:\work\Hongyun Group\dist\static\css\idangerous.swiper2.7.0.css 
+09:56:21.510 INFO  写入文件: D:\work\Hongyun Group\dist\static\js\main.js 
+09:56:21.510 INFO  写入文件: D:\work\Hongyun Group\dist\static\css\main.css 
+09:56:21.519 INFO  读取成功: D:\work\Hongyun Group\src\resource\idangerous.swiper2.7.0.min.js 
+09:56:21.540 INFO  写入文件: D:\work\Hongyun Group\dist\static\js\idangerous.swiper2.7.0.min.js 
